@@ -1,0 +1,14 @@
+check,metric,value
+duplicates,raw duplicate rows,302
+duplicates,train duplicate rows,203
+duplicates,test duplicate rows,11
+overlap,test rows identical to a training row,93 of 1409
+de-duplication,clean train / clean test rows,5431 / 1310
+de-duplication,original model on clean test,"{'AUC': 0.791, 'Acc': 0.771, 'Rec': 0.483, 'Prec': 0.583}"
+de-duplication,"retrained on de-duplicated data, clean test","{'AUC': 0.793, 'Acc': 0.778, 'Rec': 0.457, 'Prec': 0.609}"
+cross-validation,5-fold AUC per fold,"[0.8208, 0.8171, 0.8223, 0.7949, 0.8267]"
+cross-validation,mean AUC / std,0.8164 / 0.0125
+cluster stability,ARI vs seed 42 (10 seeds): min / mean,0.9972 / 0.9992
+ceiling,"logistic regression, all 12 inputs, test AUC",0.8069
+ceiling,"logistic regression, 4 inputs only, test AUC",0.8015
+ceiling,"gradient-boosted trees, 12 inputs, test AUC (mean of 3 seeds)",0.8185

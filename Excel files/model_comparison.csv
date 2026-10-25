@@ -1,0 +1,5 @@
+,Accuracy,Precision,Recall,F1,AUC
+ANN 16-8 (threshold 0.50),0.7821,0.607,0.508,0.5531,0.8049
+ANN 16-8 (tuned threshold 0.39),0.7665,0.552,0.639,0.5923,0.8049
+ANN 64-32 + Dropout 0.2 (threshold 0.50),0.7899,0.6373,0.484,0.5502,0.8069
+Logistic Regression baseline (threshold 0.50),0.7942,0.6544,0.4759,0.5511,0.8069

@@ -1,0 +1,10 @@
+factor,chi2,p_value,significant_at_5pct
+Tenure band,856.1,2.94e-185,Yes
+Charges band,350.2,1.38e-75,Yes
+Senior,159.4,1.51e-36,Yes
+Dependents,189.1,4.92e-43,Yes
+Contract,2.8,2.41e-01,No
+InternetService,3.4,6.38e-02,No
+PhoneService,0.9,3.39e-01,No
+MultipleLines,0.0,1.00e+00,No
+gender,0.5,4.87e-01,No

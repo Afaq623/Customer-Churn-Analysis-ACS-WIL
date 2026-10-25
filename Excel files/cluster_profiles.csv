@@ -1,0 +1,5 @@
+cluster,customers,avg_tenure_months,avg_monthly_charge,churn_rate,senior_share,pct_of_customers,segment,name
+1,1733,10.478,32.486,0.245,0.072,24.6,"Short-tenure, low-spend",New Budget
+0,2202,14.811,81.231,0.492,0.231,31.3,"Short-tenure, high-spend",New Premium (high risk)
+3,1160,54.1,34.151,0.048,0.077,16.5,"Long-tenure, low-spend",Loyal Budget
+2,1948,58.759,93.076,0.157,0.216,27.7,"Long-tenure, high-spend",Loyal Premium

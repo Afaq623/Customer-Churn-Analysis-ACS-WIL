@@ -1,0 +1,10 @@
+factor,auc_drop,auc_drop_std,odds_ratio_note
+Tenure,0.2123,0.0139,x0.25 per +1 SD (about +24.6 months)
+Monthly charges,0.1097,0.0113,x2.83 per +1 SD (about +$30)
+Senior citizen,0.007,0.0022,x1.69 if senior
+Phone service,0.006,0.0019,no meaningful effect
+Contract type,0.0019,0.0017,no meaningful effect
+Dependents,0.0016,0.0019,x0.66 if customer has dependents
+Internet service,0.0009,0.0018,no meaningful effect
+Multiple lines,0.0006,0.0009,no meaningful effect
+Gender,-0.0009,0.0009,no meaningful effect

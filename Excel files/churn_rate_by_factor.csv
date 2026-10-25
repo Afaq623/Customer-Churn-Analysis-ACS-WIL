@@ -1,0 +1,24 @@
+factor,group,customers,churn_rate
+Tenure band,0-12 mo,2186,0.4744
+Tenure band,13-24 mo,1024,0.2871
+Tenure band,25-48 mo,1594,0.2039
+Tenure band,49-72 mo,2239,0.0951
+Charges band,< $40,1863,0.1192
+Charges band,$40-70,1689,0.2487
+Charges band,$70-95,2251,0.3696
+Charges band,> $95,1240,0.3185
+Senior,Not senior,5901,0.2361
+Senior,Senior,1142,0.4168
+Dependents,No,4933,0.3128
+Dependents,Yes,2110,0.1545
+Contract,Month-to-month,3875,0.2733
+Contract,One year,1473,0.258
+Contract,Two year,1695,0.2537
+InternetService,DSL,3947,0.2741
+InternetService,Fiber optic,3096,0.2542
+PhoneService,No,682,0.2493
+PhoneService,Yes,6361,0.2671
+MultipleLines,No,4072,0.2655
+MultipleLines,Yes,2971,0.2652
+gender,Female,3488,0.2692
+gender,Male,3555,0.2616
